@@ -9,7 +9,7 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "Mr.WEIGE",
     url: "https://mister-hope.com",
   },
 
@@ -18,6 +18,8 @@ export default hopeTheme({
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
+
+  repoDisplay:true,
 
   docsDir: "src",
 
