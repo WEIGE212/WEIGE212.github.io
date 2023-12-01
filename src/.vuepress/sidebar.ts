@@ -17,6 +17,39 @@ export default sidebar({
       children: "structure",
     },
     "intro",
-    
   ],
+  // "/blogs/":[
+  //   "",
+  //   {
+  //     text: "技术",
+  //     icon: "laptop-code",
+  //     prefix: "Java/",
+  //     children: "structure",
+  //   },
+  // ],
+  // "/blogs/Java/":[
+  //   {
+  //     text: "技术",
+  //     icon: "laptop-code",
+  //     prefix: "Java基础/",
+  //     children: "structure",
+  //   },
+  // ],
+  // "/Java进阶/":[
+  //   {
+  //     text: "技术",
+  //     icon: "laptop-code",
+  //     prefix: "Java进阶/",
+  //     children: "structure",
+  //   },
+  // ],
+  "/blogs/Java/Java基础/":[
+    {
+      text: "技术",
+      icon: "laptop-code",
+      prefix: "",
+      children: "structure",
+    },
+  ],
+  
 });
