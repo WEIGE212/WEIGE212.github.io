@@ -1,9 +1,9 @@
 ---
-title: 技术博客
-index: false
+title: Java基础
 icon: laptop-code
-category:
-  - 使用指南
+article: false
+index: false
+comment: false
 ---
 
 ## 目录

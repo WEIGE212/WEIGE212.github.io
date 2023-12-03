@@ -1,5 +1,4 @@
 import { sidebar } from "vuepress-theme-hope";
-
 export default sidebar({
   // "/": [
   //   "",
@@ -42,14 +41,14 @@ export default sidebar({
   //     children: "structure",
   //   },
   // ],
-  "/blogs/Java/Java基础/":[
-    {
-      text: "技术",
-      icon: "laptop-code",
-      prefix: "",
-      children: "structure",
-    },
-  ],
+  // "/blogs/Java/Java基础/":[
+  //   {
+  //     text: "技术",
+  //     icon: "laptop-code",
+  //     prefix: "",
+  //     children: "structure",
+  //   },
+  // ],
   // "/"
   
 });

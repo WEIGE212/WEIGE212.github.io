@@ -1,7 +1,7 @@
 ---
 # cover: /assets/images/cover3.jpg
 comment: false
-# pageInfo: false
+article: false
 
 ---
 
