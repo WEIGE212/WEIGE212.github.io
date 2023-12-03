@@ -2,10 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
   {
-    text: "博文",
-    icon: "pen-to-square",
+    text: "技术博客",
     prefix: "/posts/",
     children: [
       {
@@ -44,14 +42,9 @@ export default navbar([
       "strawberry",
     ],
   },
+ 
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
-  {
-    text: "技术博客",
-    icon: "pen-to-square",
+    text: "杂文",
     prefix: "/blogs/",
     children: [
       {
@@ -88,9 +81,11 @@ export default navbar([
       "strawberry",
     ],
   },
+
+  "timeline",
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "个人简介", link: "/intro"
   },
+  
+
 ]);

@@ -1,8 +1,7 @@
 ---
-icon: circle-info
-cover: /assets/images/cover3.jpg
+# cover: /assets/images/cover3.jpg
 ---
 
-# 介绍页
+# 个人简介  
 
-将你的个人介绍和档案放置在此处。
+这个很懒没有留下任何简介

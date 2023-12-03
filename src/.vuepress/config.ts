@@ -5,9 +5,8 @@ export default defineUserConfig({
   base: "/",
   port:8081,
   lang: "zh-CN",
-  title: "博客演示",
-  description: "vuepress-theme-hope 的博客演示",
-
+  title: "WEIGE的知识库",
+  description: "WEIGE的知识库",
   theme,
 
   // Enable it with pwa
