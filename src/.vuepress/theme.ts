@@ -39,9 +39,9 @@ const CSND =
 
    pageInfo: [
     "Author",
+    "Date",
     "Category",
     "Tag",
-    // "Date",
     "Original",
     "Word",
     "ReadingTime",

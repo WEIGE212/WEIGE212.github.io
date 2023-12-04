@@ -17,8 +17,8 @@ export default navbar([
 
       {
         text: "后端框架",
-        prefix: "BackEnd/Spring/",
-        children: [{ text: "Spring", icon: "code", link: "README", },]
+        prefix: "BackEnd/",
+        children: [{ text: "Spring", icon: "code", link: "Spring/", },]
 
       },
       {
