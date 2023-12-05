@@ -1,5 +1,5 @@
 ---
-title: Spring系列（二）深入理解Spring IoC原理
+title: Spring（二）深入理解Spring IoC原理
 icon: laptop-code
 date: 2023-12-05
 star: true
@@ -119,7 +119,6 @@ public interface BeanFactoryPostProcessor {
     void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory);
 
 }
-
 
 public class MyBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 

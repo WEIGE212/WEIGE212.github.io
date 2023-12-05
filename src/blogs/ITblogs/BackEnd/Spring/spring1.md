@@ -1,5 +1,5 @@
 ---
-title: Spring系列（一）深入浅出了解Spring
+title: Spring（一）深入浅出了解Spring
 icon: laptop-code
 date: 2023-12-04
 star: true

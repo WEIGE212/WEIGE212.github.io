@@ -1,10 +1,14 @@
 ---
-title: 待开发
+title: Debug记录
 index: false
-icon: laptop-code
+icon: file
 article: false
 comment: false
 # category:
 #   - 使用指南
 ---
+我与bug，不共戴天！！！
+<!-- more -->
+## 目录
+
 

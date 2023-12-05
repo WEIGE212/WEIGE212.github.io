@@ -1,8 +1,6 @@
 ---
-# cover: /assets/images/cover3.jpg
 comment: false
 article: false
-
 ---
 
 # 个人简介  

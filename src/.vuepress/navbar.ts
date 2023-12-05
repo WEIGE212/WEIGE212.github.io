@@ -16,29 +16,28 @@ export default navbar([
       },
 
       {
-        text: "后端框架",
+        text: "后端",
         prefix: "BackEnd/",
         children: [{ text: "Spring", icon: "code", link: "Spring/", },]
-
       },
       {
-        text: "大数据框架",
+        text: "大数据",
         prefix: "BigData/",
         children: [
-          { text: "Hadoop", icon: "code", link: "README", },
+          { text: "Hadoop", icon: "code", link: "Hadoop/", },
         ]
 
       },
-      {
-        text: "计算机基础",
-        icon: "pen-to-square",
-        prefix: "ComputerBase/",
-        children: [
-          { text: "数据库", icon: "computer", link: "" },
-          { text: "计算机网络", icon: "computer", link: "" },
-          { text: "操作系统", icon: "computer", link: "", },
-        ],
-      },
+      // {
+      //   text: "计算机基础",
+      //   icon: "pen-to-square",
+      //   prefix: "ComputerBase/",
+      //   children: [
+      //     { text: "数据库", icon: "computer", link: "" },
+      //     { text: "计算机网络", icon: "computer", link: "" },
+      //     { text: "操作系统", icon: "computer", link: "", },
+      //   ],
+      // },
       {
         text: "Debug",
         icon: "pen-to-square",
