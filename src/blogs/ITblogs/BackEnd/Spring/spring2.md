@@ -170,7 +170,7 @@ public class MyBeanFactoryPostProcessor2 implements BeanDefinitionRegistryPostPr
 }
 ```
 
-![img](https://img-blog.csdnimg.cn/0fb89cdf0a994bd1abaa19599937149d.png)
+![image-20231205192946163](./assets/IoC流程2.png)
 
 - Bean后处理器（BeanPostProcessor），Bean被实例化后，到最终缓存到名为singletonObjects单例池之前，中间会经过Bean的初始化过程，例如：属性的填充、初始方法init的执行等，其中有一个对外进行扩展的点BeanPostProcessor，我们称为Bean后处理。跟上面Bean工厂后处理器相似，它也是一个接口，实现了该接口并被容器管理的BeanPostProcessor，会在流程节点上被Spring自动调用。 BeanPostProcessor的接口定义如下：
 
@@ -202,7 +202,7 @@ public interface BeanPostProcessor {
 
 
 
-![img](https://img-blog.csdnimg.cn/01463394968243b6b0d1e12f6d7b9ddd.png)
+![image-20231205192810208](./assets/IoC流程3.png)
 
 
 
@@ -265,7 +265,7 @@ public class DefaultSingletonBeanRegistry ... {
 
 ## 5.Spring IoC整体流程总结
 
-![img](https://img-blog.csdnimg.cn/a6bc44e3ff0c4ebab78ebe58fa7ade0d.png)
+![Ioc的整体流程](./assets/Ioc的整体流程.png)
 
 1. BeanDefinition阶段：1.读取配置封装BeanDefinition，2.将BeanDefinition存储到BeanDefinitionMap，3.执行Bean工厂后处理器
 2. Bean实例化阶段：Bean实例化了，但是未执行属性填充等生命周期过程，所以是个“半成品”。
