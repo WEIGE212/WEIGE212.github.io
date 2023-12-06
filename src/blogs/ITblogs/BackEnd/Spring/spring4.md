@@ -222,7 +222,7 @@ public Object objectDemo02(@Qualifier("userDao") UserDao userDao,
 - @Configuration注解标识的类为配置类，替代原有xml配置文件，该注解第一个作用是标识该类是一个配置类，第二个作用是具备@Component作用
 - @ComponentScan 组件扫描配置，替代原有xml文件中的\<context:component-scan base-package=""/>
 - @PropertySource 注解用于加载外部properties资源配置，替代原有xml中的 \<context:property-placeholder location=“”/> 配置
-- @Import 用于加载其他配置类，替代原有xml中的/<import resource=“classpath:beans.xml”/>配置
+- @Import 用于加载其他配置类，替代原有xml中的\<import resource=“classpath:beans.xml”/>配置
 ```java
 @Configuration
 @ComponentScan({"com.itheima.service","com.itheima.dao"})
