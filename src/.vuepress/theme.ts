@@ -31,7 +31,7 @@ const CSND =
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "他强任他强，清风拂山岗",
 
   displayFooter: true,
 

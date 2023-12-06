@@ -8,7 +8,10 @@ comment: false
 
 ## 目录
 
-- [Spring系列（一）深入浅出了解Spring](spring1.md)
+- [Spring（一）深入浅出了解Spring](spring1.md)
 
-- [Spring系列（二）深入理解Spring IoC原理](spring1.md)
+- [Spring（二）深入理解Spring IoC原理](spring2.md)
+
+- [Spring（三）通过XML方式实现Spring IoC应用详解](spring3.md)
+
 

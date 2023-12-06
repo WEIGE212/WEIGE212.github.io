@@ -169,7 +169,7 @@ public class MyBeanFactoryPostProcessor2 implements BeanDefinitionRegistryPostPr
 }
 ```
 
-![image-20231205192946163](./assets/IoC流程2.png)
+![IoC流程2](./assets/IoC流程2.png)
 
 - Bean后处理器（BeanPostProcessor），Bean被实例化后，到最终缓存到名为singletonObjects单例池之前，中间会经过Bean的初始化过程，例如：属性的填充、初始方法init的执行等，其中有一个对外进行扩展的点BeanPostProcessor，我们称为Bean后处理。跟上面Bean工厂后处理器相似，它也是一个接口，实现了该接口并被容器管理的BeanPostProcessor，会在流程节点上被Spring自动调用。 BeanPostProcessor的接口定义如下：
 
@@ -201,7 +201,7 @@ public interface BeanPostProcessor {
 
 
 
-![image-20231205192810208](./assets/IoC流程3.png)
+![IoC流程3](./assets/IoC流程3.png)
 
 
 
