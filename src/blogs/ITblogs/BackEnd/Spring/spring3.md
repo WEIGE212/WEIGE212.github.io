@@ -22,13 +22,14 @@ tag:
 - 首先，在pom.xml文件中配置Spring-context坐标，这边以5.3.19版本为例。
 
 ```xml
- <dependencies>
+<dependencies>
         <!--Spring核心-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>5.3.19</version>
-        </dependency>
+     </dependency>
+ </dependencies>
 ```
 ![spring核心坐标导入](./assets/spring核心坐标导入.png)
 

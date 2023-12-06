@@ -22,14 +22,15 @@ tag:
 ### 第一步：Maven导入Spring坐标
 首先，在pom.xml文件中配置Spring-context坐标，这边以5.3.19版本为例。
 
-```java
+```xml
  <dependencies>
         <!--Spring核心-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>5.3.19</version>
-        </dependency>
+     </dependency>
+ </dependencies>
 ```
 
 ![spring核心坐标导入](./assets/spring核心坐标导入.png)
@@ -246,9 +247,9 @@ public UserDao userDao01(){return new UserDaoImpl();}
 public UserDao userDao02(){return new UserDaoImpl2();}
 ```
 - @Profile 注解的作用同于xml配置时学习profile属性，是进行环境切换使用的
-	注解 @Profile 标注在类或方法上，标注当前产生的Bean从属于哪个环境，只有激活了当前环境，被标注的Bean才能被注册到Spring容器里，不指定环境的Bean，任何环境下都能注册到Spring容器里。
-	- 使用命令行动态参数，虚拟机参数位置加载 -Dspring.profiles.active=test	
-	- 使用代码的方式设置环境变量 System.setProperty("spring.profiles.active","test");
+- 注解 @Profile 标注在类或方法上，标注当前产生的Bean从属于哪个环境，只有激活了当前环境，被标注的Bean才能被注册到Spring容器里，不指定环境的Bean，任何环境下都能注册到Spring容器里。
+  - 使用命令行动态参数，虚拟机参数位置加载 -Dspring.profiles.active=test	
+  - 使用代码的方式设置环境变量 System.setProperty("spring.profiles.active","test");
 ```java
 @Repository("userDao")
 @Profile("test")
