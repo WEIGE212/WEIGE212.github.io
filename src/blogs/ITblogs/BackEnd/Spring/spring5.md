@@ -10,14 +10,12 @@ category:
 tag:
   - IoC
   - DI
-
 ---
 
-::: tip 
 
 模拟手写Spring里面核心的东西：IoC（控制反转）和DI（依赖注入）
 
-:::
+<!-- more -->
 
 ## 1.准备测试bean
 

@@ -12,11 +12,9 @@ tag:
   - XML
 ---
 
-::: tip 
 
 通过XML方式实现Spring IoC应用快速上手
 
-:::
 <!-- more -->
 
 ## 1. 快速上手

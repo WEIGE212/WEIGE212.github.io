@@ -12,17 +12,16 @@ tag:
   - 注解
 ---
 
-::: tip 
 
 通过注解方式实现Spring IoC应用快速上手
 
-:::
 
 <!-- more -->
 
 ## 1. 快速上手
 ### 第一步：Maven导入Spring坐标
 首先，在pom.xml文件中配置Spring-context坐标，这边以5.3.19版本为例。
+
 ```java
  <dependencies>
         <!--Spring核心-->
@@ -32,8 +31,11 @@ tag:
             <version>5.3.19</version>
         </dependency>
 ```
+
 ![spring核心坐标导入](./assets/spring核心坐标导入.png)
+
 ### 第二步：定义Bean的对象
+
 如下图，以UseDao和UseService为例，创建其接口和实现类。		
 ![project目录.png](./assets/project目录.png)
 
@@ -53,6 +55,7 @@ public class UserServiceImpl implements UserService {
 }
 ```
 ### 第三步：注解标注对象
+
 ```java
 //获取方式：applicationContext.getBean("userDao");
 @Component("userDao")
@@ -72,7 +75,9 @@ public class UserServiceImpl implements UserService {
 }
 ```
 **@Component注解的value属性指定当前Bean实例的beanName，也可以省略不写，不写的情况下为当前类名首字母小写**
+
 ### 第四步：配置组件扫描路径
+
 在Resouse目录下创建Bean的配置文件，如下图所示分别创建了Bean.xml和ApplicationContext.xml文件，他们分别对应是BeanFacory和ApplicationContext的配置文件，两者功能一样。至于BeanFactory和ApplicationContext的关系上文做了详细的回答，[[点我，看详解答！！！](spring2.md)](https://blog.csdn.net/zw351833699/article/details/134586513)
 ![resource目录](./assets/resource目录.png)
 **配置组件扫描路径**
@@ -88,7 +93,9 @@ public class UserServiceImpl implements UserService {
 </beans>
 ```
 ## 2. Bean注解开发详解
+
 ### 2.1 常用注解开发
+
 - @Component：被该注解标识的类，会在指定扫描范围内被Spring加载并实例化，相当于xml方式的\<bean id="" class="">标签
 - @Scope：在类上或使用了@Bean标注的方法上，标注Bean的作用范围，取值为singleton或prototype，相当于xml方式的\<bean id="" class="" scope="">标签
 - @Lazy：在类上或使用了@Bean标注的方法上，标注Bean是否延迟加载，取值为true和false，相当于xml方式的\<bean id="" class="" lazy-init="">标签
@@ -118,6 +125,7 @@ public class UserServiceImpl implements UserService{}
 public class UserController {}
 ```
 ### 2.2 依赖注入的注解开发
+
 Bean依赖注入的注解，主要是使用注解的方式替代xml的\<property> 标签完成属性的注入操作。
 
 ```xml
