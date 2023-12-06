@@ -3,6 +3,7 @@ title: Spring（一）深入浅出了解Spring
 icon: laptop-code
 date: 2023-12-04
 star: true
+order: 1
 category:
   - Spring
 tag:
@@ -11,7 +12,12 @@ tag:
   - AOP
 ---
 
+::: tip 自定义标题
+
 Spring 是一款主流的 Java EE 轻量级开源框架 ，其目的是用于简化 Java 企业级应用的开发难度和开发周期。Spring的用途不仅限于服务器端的开发。从简单性、可测试性和松耦合的角度而言，任何Java应用都可以从Spring中受益。
+
+:::
+
 
 <!-- more -->
 

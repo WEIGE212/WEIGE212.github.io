@@ -3,6 +3,7 @@ title: Spring（三）通过XML方式实现Spring IoC应用详解
 icon: laptop-code
 date: 2023-12-06
 star: true
+order: 3
 category:
   - Spring
 tag:
@@ -23,8 +24,11 @@ tag:
         </dependency>
 ```
 ![spring核心坐标导入](./assets/spring核心坐标导入.png)
+
 ### 第二步：定义Bean的对象
+
 - 如下图，以UseDao和UseService为例，创建其接口和实现类。		
+  
   ![project目录.png](./assets/project目录.png)
 
 - 分别在UserDaoImpl和DaoImpl在构造函数中添加如下代码，以验证其对象已经创建。
