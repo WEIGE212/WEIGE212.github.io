@@ -5,6 +5,7 @@ export default sidebar({
       text: "Java",
       prefix: "",
       children: "structure",
+      collapsible: true
     },
   ],
   "/blogs/ITblogs/BackEnd/":[
@@ -12,6 +13,7 @@ export default sidebar({
       text: "后端框架",
       prefix: "",
       children: "structure",
+      collapsible: true
     },
   ],
   "/blogs/ITblogs/BigData/":[
@@ -19,6 +21,7 @@ export default sidebar({
       text: "大数据框架",
       prefix: "",
       children: "structure",
+      collapsible: true
     },
   ],
   "/blogs/ITblogs/Debug/":[
@@ -26,6 +29,7 @@ export default sidebar({
       text: "Debug",
       prefix: "",
       children: "structure",
+      collapsible: true
     },
   ],
 

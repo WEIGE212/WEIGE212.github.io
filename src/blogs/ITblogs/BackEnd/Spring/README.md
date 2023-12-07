@@ -18,3 +18,5 @@ comment: false
 
 - [Spring（五）案例：模拟手写Spring IoC容器](spring5.md)
 
+- [Spring（六）AOP原理解析](spring6.md)
+
