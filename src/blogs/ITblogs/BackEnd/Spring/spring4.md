@@ -38,6 +38,7 @@ tag:
 ### 第二步：定义Bean的对象
 
 如下图，以UseDao和UseService为例，创建其接口和实现类。		
+
 ![project目录.png](./assets/project目录.png)
 
 分别在UserDaoImpl和DaoImpl在构造函数中添加如下代码，以验证其对象已经创建。
@@ -79,8 +80,10 @@ public class UserServiceImpl implements UserService {
 
 ### 第四步：配置组件扫描路径
 
-在Resouse目录下创建Bean的配置文件，如下图所示分别创建了Bean.xml和ApplicationContext.xml文件，他们分别对应是BeanFacory和ApplicationContext的配置文件，两者功能一样。至于BeanFactory和ApplicationContext的关系上文做了详细的回答，[[点我，看详解答！！！](spring2.md)](https://blog.csdn.net/zw351833699/article/details/134586513)
+在Resouse目录下创建Bean的配置文件，如下图所示分别创建了Bean.xml和ApplicationContext.xml文件，他们分别对应是BeanFacory和ApplicationContext的配置文件，两者功能一样。至于BeanFactory和ApplicationContext的关系上文做了详细的回答，[点我，看详解答！！！](spring2.md)
+
 ![resource目录](./assets/resource目录.png)
+
 **配置组件扫描路径**
 
 ```xml

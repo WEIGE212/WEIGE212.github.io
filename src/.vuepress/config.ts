@@ -10,7 +10,7 @@ export default defineUserConfig({
   head: [
     // meta
     ["meta", { name: "robots", content: "all" }],
-    ["meta", { name: "author", content: "MR.WEIGE" }],
+    ["meta", { name: "author", content: "Mr.WEIGE" }],
     [
       "meta",
       {
@@ -41,10 +41,10 @@ export default defineUserConfig({
           s.parentNode.insertBefore(hm, s);
         })();`,
     ],
+
   ],
   
   theme,
-
   // Enable it with pwa
   // shouldPrefetch: false,
 });

@@ -3,11 +3,12 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-hero: false
-# heroImage: /logo.svg
-# heroText: WEIGE的知识库
-# heroFullScreen: true
-# tagline: 你可以在这里放置你的口号与标语
+hero: true
+heroImage: false
+bgImage: /assets/bg.jpg
+heroText: 独学而无友，则孤陋而寡
+heroFullScreen: false
+tagline: 天可补，海可填，南山可移。日月既往，不可复追 ! ! !
 # projects:
 #   - icon: project
 #     name: 项目名称

@@ -15,7 +15,7 @@ const CSND =
   // pure: true,
   iconAssets: "fontawesome",
 
-  logo: "/assets/icon/logo.png",
+  // logo: "/assets/icon/logo.png",
 
   favicon: "/assets/icon/logo.png",
 
@@ -48,6 +48,7 @@ const CSND =
   nextLink: true,
 
   blog: {
+    avatar: "/assets/icon/logo.png",
     description: "一个后端、大数据开发的爱好者",
     intro: "/intro.html",
     medias: {
