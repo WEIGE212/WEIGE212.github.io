@@ -261,6 +261,7 @@ public class ApplicationContextTest {
 }
 ```
 **运行成功**
+
 ![手写Ioc](./assets/手写Ioc.png)
 
 ## 7.依赖注入
@@ -401,6 +402,7 @@ public class AnnotationApplicationContext implements ApplicationContext {
 
 ```
 **运行成功**
+
 ![手写DI](./assets/手写DI.png)
 
 ## 8.总结
