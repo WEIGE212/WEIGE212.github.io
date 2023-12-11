@@ -20,3 +20,5 @@ comment: false
 
 - [Spring（六）AOP原理解析](spring6.md)
 
+- [Spring（七）基于XML方式配置 Spring AOP应用](spring7.md)
+

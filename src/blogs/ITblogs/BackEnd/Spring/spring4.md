@@ -68,7 +68,7 @@ public class UserDaoImpl implements UserDao  {
 }
 
 
-//获取方式：applicationContext.getBean("userDaoImpl");
+//获取方式：applicationContext.getBean("userServiceImpl");
 @Component
 public class UserServiceImpl implements UserService {
     public UserServiceImpl() {

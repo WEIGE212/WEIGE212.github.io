@@ -13,7 +13,7 @@ tag:
 
 
 
-应用XML方式快速入门Spring AOP应用
+ 使用XML方式快速入门Spring AOP应用
 
 <!-- more -->
 
