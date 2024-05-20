@@ -1,7 +1,7 @@
 {
   "name": "weiblog",
   "version": "2.0.0",
-  "description": "WEIGE的知识库",
+  "description": "WEI的知识库",
   "license": "MIT",
   "type": "module",
   "scripts": {

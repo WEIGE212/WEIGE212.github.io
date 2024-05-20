@@ -22,3 +22,7 @@ comment: false
 
 - [Spring（七）基于XML方式配置 Spring AOP应用](spring7.md)
 
+- [Spring（八）基于注解方式配置 Spring AOP应用](spring8.md)
+
+- [Spring（九）基于AOP的声明式事务控制配置](spring9.md)
+

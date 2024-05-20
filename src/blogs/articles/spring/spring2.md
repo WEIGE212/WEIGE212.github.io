@@ -1,7 +1,7 @@
 ---
-title: Spring（二）深入理解Spring IoC原理
+title: 深入理解Spring IoC原理
 icon: laptop-code
-date: 2023-12-05
+date: 2023-03-08
 star: true
 order: 2
 category:

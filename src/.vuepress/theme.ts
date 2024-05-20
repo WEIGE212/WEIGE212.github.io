@@ -9,7 +9,7 @@ const CSND =
   hostname: "https://weige212.github.io",
 
   author: {
-    name: "Mr.WEIGE",
+    name: "Mr.WEI",
     // url: "https://mister-hope.com",
   },
   // pure: true,

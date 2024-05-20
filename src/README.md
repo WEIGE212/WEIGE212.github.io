@@ -7,7 +7,7 @@ hero: true
 heroImage: false
 bgImage: /assets/bg.jpg
 heroText: 独学而无友，则孤陋而寡
-heroFullScreen: false
+heroFullScreen: ture
 tagline: 天可补，海可填，南山可移。日月既往，不可复追 ! ! !
 # projects:
 #   - icon: project

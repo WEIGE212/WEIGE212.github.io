@@ -5,12 +5,12 @@ export default defineUserConfig({
   base: "/",
   port:8081,
   lang: "zh-CN",
-  title: "WEIGE的知识库",
-  description: "WEIGE的知识库",
+  title: "WEI的知识库",
+  description: "WEI的知识库",
   head: [
     // meta
     ["meta", { name: "robots", content: "all" }],
-    ["meta", { name: "author", content: "Mr.WEIGE" }],
+    ["meta", { name: "author", content: "Mr.WEI" }],
     [
       "meta",
       {

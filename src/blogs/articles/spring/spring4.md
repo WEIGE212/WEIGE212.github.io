@@ -1,7 +1,7 @@
 ---
-title: Spring（四）通过注解方式实现Spring IoC应用详解
+title: 通过注解方式实现Spring IoC应用详解
 icon: laptop-code
-date: 2023-12-06
+date: 2024-03-24
 star: true
 order: 4
 category:

@@ -1,7 +1,7 @@
 ---
-title: Spring（五）案例：模拟手写Spring IoC容器
+title: 案例：模拟手写Spring IoC容器
 icon: laptop-code
-date: 2023-12-06
+date: 2024-04-01
 star: true
 order: 5
 category:

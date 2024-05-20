@@ -1,7 +1,7 @@
 ---
-title: Spring（八）基于注解方式配置 Spring AOP应用
+title: 基于注解方式配置 Spring AOP应用
 icon: laptop-code
-date: 2023-12-08
+date: 2024-04-21
 star: true
 order: 8
 category:

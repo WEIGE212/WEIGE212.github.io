@@ -1,7 +1,7 @@
 ---
-title: Spring（三）通过XML方式实现Spring IoC应用详解
+title: 通过XML方式实现Spring IoC应用详解
 icon: laptop-code
-date: 2023-12-06
+date: 2024-03-16
 star: true
 order: 3
 category:
@@ -57,7 +57,7 @@ public class UserServiceImpl implements UserService {
 ```
 ### 第三步：创建Bean对象的配置文件
 - 在Resouse目录下创建Bean的配置文件，如下图所示分别创建了Bean.xml和ApplicationContext.xml文件，他们分别对应是BeanFacory和ApplicationContext的配置文件，两者功能一样。至于BeanFactory和ApplicationContext的关系上文做了详细的回答，[点我，看详解答！！！](spring2.md)
- 
+
   ![resource目录](./assets/resource目录.png)
 
 - 配置\<Bean>\</Bean>标签

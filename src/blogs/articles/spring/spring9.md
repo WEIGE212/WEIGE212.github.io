@@ -1,7 +1,7 @@
 ---
-title: Spring（九）基于AOP的声明式事务控制配置
+title: 基于AOP的声明式事务控制配置
 icon: laptop-code
-date: 2023-12-11
+date: 2024-05-01
 star: true
 order: 9
 category:

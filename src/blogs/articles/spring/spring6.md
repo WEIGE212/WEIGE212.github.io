@@ -1,7 +1,7 @@
 ---
-title: Spring（六）AOP原理解析
+title: AOP原理解析
 icon: laptop-code
-date: 2023-12-07
+date: 2023-04-09
 star: true
 order: 6
 category:
