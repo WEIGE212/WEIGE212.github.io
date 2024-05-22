@@ -22,11 +22,11 @@ tag:
 
 * Maven Web项目结构: 开发中的项目
 
-  ![1627202865978](./assets/1627202865978.png)
+  ![MavenWeb项目结构](./assets/MavenWeb项目结构.png)
 
 * 开发完成部署的Web项目
 
-  ![1627202903750](./assets/1627202903750.png)
+  ![部署的Web项目](./assets/部署的Web项目.png)
 
   * 开发项目通过执行Maven打包命令**package**,可以获取到部署的Web项目目录
   * 编译后的Java字节码文件和resources的资源文件，会被放到WEB-INF下的classes目录下
