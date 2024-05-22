@@ -2,7 +2,7 @@
 title: DDL语句的执行顺序
 icon: laptop-code
 date: 2024-05-21
-star: true
+star: false
 order: 1
 category:
   - 数据库
