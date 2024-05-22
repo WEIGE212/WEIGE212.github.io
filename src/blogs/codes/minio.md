@@ -8,8 +8,8 @@ category:
   - 代码片段
 tag:
   - Java
-  - springboot
-  - minIO
+  - SpringBoot
+  - MinIO
 ---
 
 CV战士专属的Minio代码片段

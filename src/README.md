@@ -7,28 +7,28 @@ hero: true
 heroImage: false
 bgImage: /assets/bg.jpg
 heroText: 独学而无友，则孤陋而寡
-heroFullScreen: ture
+heroFullScreen: true
 tagline: 天可补，海可填，南山可移。日月既往，不可复追 ! ! !
-# projects:
-#   - icon: project
-#     name: 项目名称
-#     desc: 项目详细描述
-#     link: https://你的项目链接
+projects:
+  # - icon: link
+  #   name: 星火认知大模型
+  #   desc: 大模型
+  #   link: https://xinghuo.xfyun.cn/
 
-#   - icon: link
-#     name: 链接名称
-#     desc: 链接详细描述
-#     link: https://链接地址
+  # - icon: link
+  #   name: leetcode
+  #   desc: 刷题网站
+  #   link: https://leetcode.cn/
 
-#   - icon: book
-#     name: 书籍名称
-#     desc: 书籍详细描述
-#     link: https://你的书籍链接
+  # - icon: link
+  #   name: Data Structure Visualizations
+  #   desc: 数据结构可视化
+  #   link: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
-#   - icon: article
-#     name: 文章名称
-#     desc: 文章详细描述
-#     link: https://你的文章链接
+  # - icon: article
+  #   name: CodeSheep
+  #   desc: 精品文章
+  #   link: https://www.r2coding.com/
 
   # - icon: /logo.svg
   #   name: 自定义项目

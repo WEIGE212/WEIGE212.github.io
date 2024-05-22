@@ -1,6 +1,6 @@
 ---
 title: Java基础
-icon: file
+icon: book
 article: false
 index: false
 comment: false
