@@ -7,7 +7,8 @@ export default navbar([
     prefix: "/blogs/articles",
     icon: "pen-to-square",
     children: [
-      {text: "Spring", link: "spring/"},
+      { text: "Java", link: "java/" },
+      { text: "Spring", link: "spring/"},
       { text: "SpringMVC", link: "springmvc/" },
       { text: "数据库", link: "database/" },
       { text: "计算机网络", link: "network/" },

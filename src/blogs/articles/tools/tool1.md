@@ -2,14 +2,14 @@
 title: 使用IDEA创建Web项目
 icon: laptop-code
 date: 2024-03-01
-star: true
+star: false
 order: 1
 category:
-  - Spring
+  - IDE工具
 tag:
-  - IoC
-  - DI
-  - AOP
+  - TomCat
+  - Maven
+  - Web
 ---
 
 使用IDEA编辑器集成TomCat创建Maven的Web项目
