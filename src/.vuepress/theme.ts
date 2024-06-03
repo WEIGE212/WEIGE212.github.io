@@ -49,7 +49,7 @@ const CSND =
 
   blog: {
     avatar: "/assets/icon/logo.png",
-    description: "一个后端、大数据开发的爱好者",
+    description: "一名奋进的程序员",
     intro: "/intro.html",
     medias: {
       CSND: ["https://blog.csdn.net/zw351833699", CSND],

@@ -304,3 +304,28 @@ public class FilterDemo implements Filter {
 我们现在使用的是注解配置Filter，而这种配置方式的优先级是按照过滤器类名(字符串)的自然排序。
 
 比如有如下两个名称的过滤器 ： `BFilterDemo` 和 `AFilterDemo` 。那一定是 `AFilterDemo` 过滤器先执行。
+
+## 2. 过滤器与拦截器的区别
+
+1. 实现原理不同
+  过滤器和拦截器 底层实现方式不相同，过滤器是基于函数回调的，拦截器则是基于Java的反射机制（动态代理）实现的。
+
+2. 使用范围不同
+  过滤器实现的是 javax.servlet.Filter 接口，而这个接口是在Servlet规范中定义的，也就是说过滤器Filter 的使用要依赖于Tomcat等容器，导致它只能在web程序中使用。而拦截器是一个Spring组件，并由Spring容器管理，并不依赖Tomcat等容器，是可以单独使用的。不仅能应用在web程序中，也可以用于Application、Swing等程序中。
+
+3. 触发时机不同
+     过滤器 和 拦截器的触发时机不同。过滤器Filter是在请求进入容器后，但在进入servlet之前进行预处理，请求结束是在servlet处理完以后。拦截器 Interceptor 是在请求进入servlet后，在进入Controller之前进行预处理的，Controller 中渲染了对应的视图之后请求结束。
+
+4. 拦截请求的范围不同
+
+     Filter对所有访问进行增强，Interceptor仅针对SpringMVC的访问进行增强。
+
+
+5. 使用的场景不同
+
+   过滤器对所有请求都生效，更加适合做一些通用功能。拦截器可以细粒度地控制拦截路径，适合做一些偏重业务地功能。
+
+
+
+
+

@@ -347,7 +347,7 @@ public class ServletDemo4 extends HttpServlet {
 
 启动测试，即可看到doPost方法被执行了。
 
-::: info
+::: info 问题
 
 - 问题：
 
