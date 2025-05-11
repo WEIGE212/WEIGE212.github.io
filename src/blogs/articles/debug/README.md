@@ -1,5 +1,5 @@
 ---
-title: Debug记录
+title: Debug指南
 index: false
 icon: book
 article: false
@@ -9,4 +9,4 @@ comment: false
 ---
 ## 目录
 
-- [1. Entity Attribute name uniqueness](debug1.md)
+
