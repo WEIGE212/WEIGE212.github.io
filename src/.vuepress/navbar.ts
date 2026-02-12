@@ -7,6 +7,7 @@ export default navbar([
     prefix: "/blogs/articles",
     icon: "pen-to-square",
     children: [
+      { text: "AI", link: "ai/" },
       { text: "Java", link: "java/" },
       { text: "Spring", link: "spring/"},
       { text: "设计模式", link: "designpattern/" },
